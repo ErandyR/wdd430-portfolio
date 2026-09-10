@@ -7,19 +7,20 @@ export default function About() {
             <p className="text-lg text-gray-700">
                 I am Erandy Ramirez, a passionate web developer with experience in building dynamic and responsive web applications. I enjoy learning new technologies and continuously improving my skills in front-end and back-end development.
             </p>
+            <SkillsCard
+                title="Technical Skills"
+                skills={[
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                ]}
+            />
         </main>
     );
+
 }
 
-<SkillsCard
-    title="Technical Skills"
-    skills={[
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-    ]}
-/>

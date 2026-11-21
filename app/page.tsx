@@ -2,12 +2,14 @@ import Image from "next/image";
 import ProjectList from '@/components/ProjectList';
 const projects = [
   {
+    id: 1,
     title: 'Wellness Habit Tracker API',
     description: 'A RESTful API designed to manage wellness habits and track personal progress. It provides CRUD operations for users, habits, progress records, and journal entries, with secure authentication and interactive API documentation.',
     technologies: ['Node.js', 'Express 5', 'MongoDB', 'JWT', 'Passport.js', 'GitHub OAuth', 'Swagger', 'Jest', 'Supertest'],
     link: 'https://github.com/ErandyR/wellness-habit-tracker-api'
   },
   {
+    id: 2,
     title: 'MandarinMe – Mandarin Learning Platform',
     description: "A web application designed to help self-taught Mandarin learners study from HSK 1 to HSK 3, featuring vocabulary practice, flashcards, a dictionary, and interactive learning tools.",
     technologies: [
